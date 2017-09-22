@@ -15,8 +15,8 @@ set -e -o pipefail
 ###############################################################
 stage=0    # from which stage should this script start
 corpus=./corpus  # corpus containing speech,transcripts,pronunciation dictionary
-nj=8        # number of parallel jobs to run during training
-dev_nj=8    # number of parallel jobs to run during decoding 
+nj=4        # number of parallel jobs to run during training
+dev_nj=4    # number of parallel jobs to run during decoding 
 # the above two parameters are typically set to the number of cores on your machine
 ###############################################################
 
