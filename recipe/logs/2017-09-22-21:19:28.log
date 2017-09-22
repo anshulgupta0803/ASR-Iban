@@ -1,0 +1,240 @@
+---------- START 1 ----------
+num_iters = 1
+%WER 97.85 [ 182 / 186, 0 ins, 132 del, 50 sub ] exp/mono/decode_dev/wer_10_0.0
+Time Taken = 87 secs
+----------- END 1 -----------
+
+---------- START 2 ----------
+num_iters = 2
+%WER 93.55 [ 174 / 186, 1 ins, 96 del, 77 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 83 secs
+----------- END 2 -----------
+
+---------- START 3 ----------
+num_iters = 3
+%WER 91.94 [ 171 / 186, 1 ins, 75 del, 95 sub ] exp/mono/decode_dev/wer_17_0.0
+Time Taken = 89 secs
+----------- END 3 -----------
+
+---------- START 4 ----------
+num_iters = 4
+%WER 90.32 [ 168 / 186, 2 ins, 69 del, 97 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 96 secs
+----------- END 4 -----------
+
+---------- START 5 ----------
+num_iters = 5
+%WER 83.87 [ 156 / 186, 0 ins, 75 del, 81 sub ] exp/mono/decode_dev/wer_14_0.5
+Time Taken = 101 secs
+----------- END 5 -----------
+
+---------- START 6 ----------
+num_iters = 6
+%WER 77.96 [ 145 / 186, 1 ins, 60 del, 84 sub ] exp/mono/decode_dev/wer_13_0.5
+Time Taken = 108 secs
+----------- END 6 -----------
+
+---------- START 7 ----------
+num_iters = 7
+%WER 74.19 [ 138 / 186, 1 ins, 57 del, 80 sub ] exp/mono/decode_dev/wer_12_1.0
+Time Taken = 112 secs
+----------- END 7 -----------
+
+---------- START 8 ----------
+num_iters = 8
+%WER 64.52 [ 120 / 186, 0 ins, 45 del, 75 sub ] exp/mono/decode_dev/wer_14_0.5
+Time Taken = 115 secs
+----------- END 8 -----------
+
+---------- START 9 ----------
+num_iters = 9
+%WER 60.22 [ 112 / 186, 1 ins, 42 del, 69 sub ] exp/mono/decode_dev/wer_11_0.0
+Time Taken = 118 secs
+----------- END 9 -----------
+
+---------- START 10 ----------
+num_iters = 10
+%WER 61.29 [ 114 / 186, 0 ins, 49 del, 65 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 121 secs
+----------- END 10 -----------
+
+---------- START 11 ----------
+num_iters = 11
+%WER 58.60 [ 109 / 186, 0 ins, 39 del, 70 sub ] exp/mono/decode_dev/wer_11_0.0
+Time Taken = 124 secs
+----------- END 11 -----------
+
+---------- START 12 ----------
+num_iters = 12
+%WER 58.06 [ 108 / 186, 0 ins, 40 del, 68 sub ] exp/mono/decode_dev/wer_11_0.0
+Time Taken = 125 secs
+----------- END 12 -----------
+
+---------- START 13 ----------
+num_iters = 13
+%WER 58.06 [ 108 / 186, 0 ins, 39 del, 69 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 128 secs
+----------- END 13 -----------
+
+---------- START 14 ----------
+num_iters = 14
+%WER 57.53 [ 107 / 186, 0 ins, 38 del, 69 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 129 secs
+----------- END 14 -----------
+
+---------- START 15 ----------
+num_iters = 15
+%WER 58.06 [ 108 / 186, 3 ins, 32 del, 73 sub ] exp/mono/decode_dev/wer_7_0.5
+Time Taken = 132 secs
+----------- END 15 -----------
+
+---------- START 16 ----------
+num_iters = 16
+%WER 58.60 [ 109 / 186, 1 ins, 39 del, 69 sub ] exp/mono/decode_dev/wer_10_1.0
+Time Taken = 133 secs
+----------- END 16 -----------
+
+---------- START 17 ----------
+num_iters = 17
+%WER 57.53 [ 107 / 186, 0 ins, 41 del, 66 sub ] exp/mono/decode_dev/wer_11_0.5
+Time Taken = 136 secs
+----------- END 17 -----------
+
+---------- START 18 ----------
+num_iters = 18
+%WER 56.99 [ 106 / 186, 0 ins, 39 del, 67 sub ] exp/mono/decode_dev/wer_11_0.5
+Time Taken = 136 secs
+----------- END 18 -----------
+
+---------- START 19 ----------
+num_iters = 19
+%WER 57.53 [ 107 / 186, 2 ins, 38 del, 67 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 139 secs
+----------- END 19 -----------
+
+---------- START 20 ----------
+num_iters = 20
+%WER 56.99 [ 106 / 186, 1 ins, 38 del, 67 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 140 secs
+----------- END 20 -----------
+
+---------- START 21 ----------
+num_iters = 21
+%WER 58.06 [ 108 / 186, 2 ins, 38 del, 68 sub ] exp/mono/decode_dev/wer_12_0.5
+Time Taken = 144 secs
+----------- END 21 -----------
+
+---------- START 22 ----------
+num_iters = 22
+%WER 57.53 [ 107 / 186, 2 ins, 39 del, 66 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 145 secs
+----------- END 22 -----------
+
+---------- START 23 ----------
+num_iters = 23
+%WER 57.53 [ 107 / 186, 2 ins, 39 del, 66 sub ] exp/mono/decode_dev/wer_14_0.0
+Time Taken = 143 secs
+----------- END 23 -----------
+
+---------- START 24 ----------
+num_iters = 24
+%WER 58.06 [ 108 / 186, 1 ins, 40 del, 67 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 148 secs
+----------- END 24 -----------
+
+---------- START 25 ----------
+num_iters = 25
+%WER 58.06 [ 108 / 186, 1 ins, 39 del, 68 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 147 secs
+----------- END 25 -----------
+
+---------- START 26 ----------
+num_iters = 26
+%WER 58.06 [ 108 / 186, 1 ins, 41 del, 66 sub ] exp/mono/decode_dev/wer_13_0.5
+Time Taken = 147 secs
+----------- END 26 -----------
+
+---------- START 27 ----------
+num_iters = 27
+%WER 57.53 [ 107 / 186, 1 ins, 38 del, 68 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 151 secs
+----------- END 27 -----------
+
+---------- START 28 ----------
+num_iters = 28
+%WER 57.53 [ 107 / 186, 1 ins, 38 del, 68 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 151 secs
+----------- END 28 -----------
+
+---------- START 29 ----------
+num_iters = 29
+%WER 57.53 [ 107 / 186, 1 ins, 38 del, 68 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 152 secs
+----------- END 29 -----------
+
+---------- START 30 ----------
+num_iters = 30
+%WER 57.53 [ 107 / 186, 1 ins, 42 del, 64 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 153 secs
+----------- END 30 -----------
+
+---------- START 31 ----------
+num_iters = 31
+%WER 57.53 [ 107 / 186, 1 ins, 41 del, 65 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 156 secs
+----------- END 31 -----------
+
+---------- START 32 ----------
+num_iters = 32
+%WER 57.53 [ 107 / 186, 1 ins, 41 del, 65 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 155 secs
+----------- END 32 -----------
+
+---------- START 33 ----------
+num_iters = 33
+%WER 57.53 [ 107 / 186, 1 ins, 37 del, 69 sub ] exp/mono/decode_dev/wer_17_0.0
+Time Taken = 158 secs
+----------- END 33 -----------
+
+---------- START 34 ----------
+num_iters = 34
+%WER 58.06 [ 108 / 186, 1 ins, 39 del, 68 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 158 secs
+----------- END 34 -----------
+
+---------- START 35 ----------
+num_iters = 35
+%WER 58.06 [ 108 / 186, 1 ins, 39 del, 68 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 159 secs
+----------- END 35 -----------
+
+---------- START 36 ----------
+num_iters = 36
+%WER 58.06 [ 108 / 186, 1 ins, 36 del, 71 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 163 secs
+----------- END 36 -----------
+
+---------- START 37 ----------
+num_iters = 37
+%WER 58.06 [ 108 / 186, 1 ins, 36 del, 71 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 161 secs
+----------- END 37 -----------
+
+---------- START 38 ----------
+num_iters = 38
+%WER 57.53 [ 107 / 186, 1 ins, 37 del, 69 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 162 secs
+----------- END 38 -----------
+
+---------- START 39 ----------
+num_iters = 39
+%WER 56.99 [ 106 / 186, 1 ins, 37 del, 68 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 166 secs
+----------- END 39 -----------
+
+---------- START 40 ----------
+num_iters = 40
+%WER 56.99 [ 106 / 186, 1 ins, 37 del, 68 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 166 secs
+----------- END 40 -----------
+
