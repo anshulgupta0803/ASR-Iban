@@ -24,9 +24,9 @@ logfile="logs/tune_parameters_`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_parameters"
 
 scale_opts="--transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1"
-num_iters=(`seq 10 20`)
-max_iter_inc=(`seq 1 10`)
-totgauss=(`seq 200 50 800`)
+num_iters=`seq 10 20`
+max_iter_inc=`seq 1 10`
+totgauss=`seq 200 50 800`
 
 
 mv steps/train_mono.sh steps/train_mono.sh.bak
