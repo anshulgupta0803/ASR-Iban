@@ -1,0 +1,114 @@
+---------- START 100 ----------
+totgauss = 100
+%WER 74.19 [ 138 / 186, 1 ins, 53 del, 84 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 254 secs
+----------- END  -----------
+
+---------- START 150 ----------
+totgauss = 150
+%WER 66.13 [ 123 / 186, 0 ins, 55 del, 68 sub ] exp/mono/decode_dev/wer_14_1.0
+Time Taken = 255 secs
+----------- END  -----------
+
+---------- START 200 ----------
+totgauss = 200
+%WER 60.75 [ 113 / 186, 2 ins, 37 del, 74 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 245 secs
+----------- END  -----------
+
+---------- START 250 ----------
+totgauss = 250
+%WER 59.14 [ 110 / 186, 1 ins, 38 del, 71 sub ] exp/mono/decode_dev/wer_15_0.0
+Time Taken = 257 secs
+----------- END  -----------
+
+---------- START 300 ----------
+totgauss = 300
+%WER 63.98 [ 119 / 186, 3 ins, 39 del, 77 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 265 secs
+----------- END  -----------
+
+---------- START 350 ----------
+totgauss = 350
+%WER 59.68 [ 111 / 186, 0 ins, 41 del, 70 sub ] exp/mono/decode_dev/wer_13_0.5
+Time Taken = 252 secs
+----------- END  -----------
+
+---------- START 400 ----------
+totgauss = 400
+%WER 61.29 [ 114 / 186, 2 ins, 36 del, 76 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 258 secs
+----------- END  -----------
+
+---------- START 450 ----------
+totgauss = 450
+%WER 59.68 [ 111 / 186, 0 ins, 38 del, 73 sub ] exp/mono/decode_dev/wer_12_0.5
+Time Taken = 271 secs
+----------- END  -----------
+
+---------- START 500 ----------
+totgauss = 500
+%WER 61.83 [ 115 / 186, 0 ins, 46 del, 69 sub ] exp/mono/decode_dev/wer_16_0.5
+Time Taken = 265 secs
+----------- END  -----------
+
+---------- START 550 ----------
+totgauss = 550
+%WER 58.06 [ 108 / 186, 1 ins, 35 del, 72 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 269 secs
+----------- END  -----------
+
+---------- START 600 ----------
+totgauss = 600
+%WER 61.29 [ 114 / 186, 1 ins, 47 del, 66 sub ] exp/mono/decode_dev/wer_13_1.0
+Time Taken = 284 secs
+----------- END  -----------
+
+---------- START 650 ----------
+totgauss = 650
+%WER 61.29 [ 114 / 186, 3 ins, 33 del, 78 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 282 secs
+----------- END  -----------
+
+---------- START 700 ----------
+totgauss = 700
+%WER 58.60 [ 109 / 186, 1 ins, 37 del, 71 sub ] exp/mono/decode_dev/wer_15_0.5
+Time Taken = 277 secs
+----------- END  -----------
+
+---------- START 750 ----------
+totgauss = 750
+%WER 59.14 [ 110 / 186, 2 ins, 38 del, 70 sub ] exp/mono/decode_dev/wer_11_0.0
+Time Taken = 283 secs
+----------- END  -----------
+
+---------- START 800 ----------
+totgauss = 800
+%WER 59.14 [ 110 / 186, 2 ins, 38 del, 70 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 263 secs
+----------- END  -----------
+
+---------- START 850 ----------
+totgauss = 850
+%WER 59.68 [ 111 / 186, 2 ins, 37 del, 72 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 259 secs
+----------- END  -----------
+
+---------- START 900 ----------
+totgauss = 900
+%WER 55.91 [ 104 / 186, 3 ins, 33 del, 68 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 262 secs
+----------- END  -----------
+
+---------- START 950 ----------
+totgauss = 950
+%WER 58.60 [ 109 / 186, 2 ins, 39 del, 68 sub ] exp/mono/decode_dev/wer_12_0.5
+Time Taken = 280 secs
+----------- END  -----------
+
+---------- START 1000 ----------
+totgauss = 1000
+%WER 57.53 [ 107 / 186, 0 ins, 38 del, 69 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 290 secs
+----------- END  -----------
+
