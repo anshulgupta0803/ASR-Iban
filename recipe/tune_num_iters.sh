@@ -7,13 +7,15 @@ fi
 
 logfile="logs/num_iters_`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_num_iters"
+
+mv steps/train_mono.sh steps/train_mono.sh.bak
 for iterations in `seq 14 20`
 do
   echo -e "---------- START $iterations ----------" >> $logfile
   echo -e "num_iters = $iterations"
   echo -e "num_iters = $iterations" >> $logfile
 
-  sed 's/num_iters=10/num_iters='$iterations'/g' steps/train_mono.sh.bak > steps/train_mono.sh
+  sed 's/num_iters=[0-9]*/num_iters='$iterations'/g' steps/train_mono.sh.bak > steps/train_mono.sh
   chmod +x steps/train_mono.sh
 
   run_log=${run_log_prefix}_${iterations}.log
@@ -33,4 +35,4 @@ do
 
   echo "----------"
 done
-cp steps/train_mono.sh.bak steps/train_mono.sh
+mv steps/train_mono.sh.bak steps/train_mono.sh

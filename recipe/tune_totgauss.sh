@@ -7,13 +7,15 @@ fi
 
 logfile="logs/totgauss_`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_totgauss"
+
+mv steps/train_mono.sh steps/train_mono.bak
 for gauss in `seq 100 50 1000`
 do
   echo -e "---------- START $gauss ----------" >> $logfile
   echo -e "totgauss = $gauss"
   echo -e "totgauss = $gauss" >> $logfile
 
-  sed 's/totgauss=1000/totgauss='$gauss'/g' steps/train_mono.sh.bak > steps/train_mono.sh
+  sed 's/totgauss=[0-9]*/totgauss='$gauss'/g' steps/train_mono.sh.bak > steps/train_mono.sh
   chmod +x steps/train_mono.sh
 
   run_log=${run_log_prefix}_${gauss}.log
@@ -33,4 +35,4 @@ do
 
   echo "----------"
 done
-cp steps/train_mono.sh.bak steps/train_mono.sh
+mv steps/train_mono.sh.bak steps/train_mono.sh
