@@ -5,7 +5,7 @@ then
   mkdir logs
 fi
 
-logfile="logs/`date +%Y-%m-%d-%T`.log"
+logfile="logs/num_iters_`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_num_iters"
 for iterations in `seq 14 20`
 do
@@ -24,7 +24,7 @@ do
 
 
   tail -n1 $run_log | cut -d' ' -f1,2
-  tail -n1 $run_log >> $logfile
+  tail -n1 $run_log >> $logfile 2> /dev/null
 
   time_taken=`expr $end_time - $start_time`
   echo -e "Time Taken = $time_taken secs"
