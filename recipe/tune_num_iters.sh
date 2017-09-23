@@ -19,12 +19,12 @@ do
   run_log=${run_log_prefix}_${iterations}.log
 
   start_time=`date +%s`
-  ./run.sh > $run_log
+  ./run.sh > $run_log 2> /dev/null
   end_time=`date +%s`
 
 
   tail -n1 $run_log | cut -d' ' -f1,2
-  tail -n1 $run_log >> $logfile 2> /dev/null
+  tail -n1 $run_log >> $logfile
 
   time_taken=`expr $end_time - $start_time`
   echo -e "Time Taken = $time_taken secs"

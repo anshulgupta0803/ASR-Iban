@@ -19,7 +19,7 @@ do
   run_log=${run_log_prefix}_${gauss}.log
 
   start_time=`date +%s`
-  ./run.sh > $run_log
+  ./run.sh > $run_log 2> /dev/null
   end_time=`date +%s`
 
 
