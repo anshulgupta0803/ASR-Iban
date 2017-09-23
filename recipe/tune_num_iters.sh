@@ -7,7 +7,7 @@ fi
 
 logfile="logs/`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_num_iters"
-for iterations in `seq 1 40`
+for iterations in `seq 14 20`
 do
   echo -e "---------- START $iterations ----------" >> $logfile
   echo -e "num_iters = $iterations"
@@ -33,3 +33,4 @@ do
 
   echo "----------"
 done
+cp steps/train_mono.sh.bak steps/train_mono.sh
