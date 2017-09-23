@@ -5,6 +5,21 @@ then
   mkdir logs
 fi
 
+NOTIFY=0
+for arg in "$@"
+do
+  case $arg in
+    --notify*)
+        NOTIFY=1
+        shift
+        ;;
+
+    *)
+      shift
+      ;;
+  esac
+done
+
 logfile="logs/tune_parameters_`date +%Y-%m-%d-%T`.log"
 run_log_prefix="/tmp/tune_parameters"
 
@@ -53,3 +68,7 @@ for iteration in $num_iters; do
   done
 done
 mv steps/train_mono.sh.bak steps/train_mono.sh
+
+if [ $NOTIFY == 1 ] &&  [ -f notify.sh ]; then
+  ./notify.sh $logfile
+fi
