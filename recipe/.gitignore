@@ -1,1 +1,4 @@
 notify.sh
+data/*
+exp/*
+mfcc/*
