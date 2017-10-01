@@ -1,0 +1,293 @@
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.01"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.14 [ 110 / 186, 1 ins, 40 del, 69 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 580 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.02"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 62.37 [ 116 / 186, 1 ins, 46 del, 69 sub ] exp/mono/decode_dev/wer_16_1.0
+Time Taken = 577 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.03"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 58.60 [ 109 / 186, 0 ins, 42 del, 67 sub ] exp/mono/decode_dev/wer_17_0.5
+Time Taken = 571 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.04"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 57.53 [ 107 / 186, 3 ins, 36 del, 68 sub ] exp/mono/decode_dev/wer_14_0.0
+Time Taken = 592 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.05"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 57.53 [ 107 / 186, 6 ins, 32 del, 69 sub ] exp/mono/decode_dev/wer_10_0.0
+Time Taken = 613 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.06"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 57.53 [ 107 / 186, 2 ins, 43 del, 62 sub ] exp/mono/decode_dev/wer_11_1.0
+Time Taken = 630 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.07"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 64.52 [ 120 / 186, 4 ins, 61 del, 55 sub ] exp/mono/decode_dev/wer_16_0.5
+Time Taken = 705 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.08"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 60.75 [ 113 / 186, 0 ins, 56 del, 57 sub ] exp/mono/decode_dev/wer_12_1.0
+Time Taken = 794 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.09"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 67.20 [ 125 / 186, 0 ins, 47 del, 78 sub ] exp/mono/decode_dev/wer_9_0.0
+Time Taken = 950 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.01 --self-loop-scale=0.10"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 67.20 [ 125 / 186, 1 ins, 54 del, 70 sub ] exp/mono/decode_dev/wer_11_0.0
+Time Taken = 950 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.01"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 62.37 [ 116 / 186, 4 ins, 36 del, 76 sub ] exp/mono/decode_dev/wer_10_0.0
+Time Taken = 402 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.02"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 56.99 [ 106 / 186, 2 ins, 37 del, 67 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 403 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.03"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.68 [ 111 / 186, 3 ins, 35 del, 73 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 410 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.04"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 58.06 [ 108 / 186, 0 ins, 40 del, 68 sub ] exp/mono/decode_dev/wer_17_1.0
+Time Taken = 402 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.05"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 61.83 [ 115 / 186, 3 ins, 34 del, 78 sub ] exp/mono/decode_dev/wer_14_0.0
+Time Taken = 414 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.06"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 61.83 [ 115 / 186, 4 ins, 34 del, 77 sub ] exp/mono/decode_dev/wer_10_1.0
+Time Taken = 418 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.07"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 56.99 [ 106 / 186, 4 ins, 39 del, 63 sub ] exp/mono/decode_dev/wer_14_0.5
+Time Taken = 437 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.08"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.14 [ 110 / 186, 4 ins, 40 del, 66 sub ] exp/mono/decode_dev/wer_13_0.5
+Time Taken = 445 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.09"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 58.60 [ 109 / 186, 5 ins, 43 del, 61 sub ] exp/mono/decode_dev/wer_11_0.5
+Time Taken = 452 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.02 --self-loop-scale=0.10"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 56.99 [ 106 / 186, 5 ins, 38 del, 63 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 467 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.01"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 60.22 [ 112 / 186, 1 ins, 37 del, 74 sub ] exp/mono/decode_dev/wer_12_0.5
+Time Taken = 357 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.02"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.68 [ 111 / 186, 5 ins, 31 del, 75 sub ] exp/mono/decode_dev/wer_10_0.0
+Time Taken = 356 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.03"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.68 [ 111 / 186, 3 ins, 38 del, 70 sub ] exp/mono/decode_dev/wer_12_0.0
+Time Taken = 355 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.04"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 60.22 [ 112 / 186, 3 ins, 35 del, 74 sub ] exp/mono/decode_dev/wer_11_0.5
+Time Taken = 350 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.05"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.14 [ 110 / 186, 3 ins, 42 del, 65 sub ] exp/mono/decode_dev/wer_15_1.0
+Time Taken = 354 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.06"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.68 [ 111 / 186, 2 ins, 38 del, 71 sub ] exp/mono/decode_dev/wer_16_0.0
+Time Taken = 358 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.07"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 56.99 [ 106 / 186, 4 ins, 29 del, 73 sub ] exp/mono/decode_dev/wer_13_0.0
+Time Taken = 353 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.08"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 58.06 [ 108 / 186, 4 ins, 24 del, 80 sub ] exp/mono/decode_dev/wer_7_0.5
+Time Taken = 354 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.09"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 58.06 [ 108 / 186, 1 ins, 41 del, 66 sub ] exp/mono/decode_dev/wer_16_0.5
+Time Taken = 364 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.03 --self-loop-scale=0.10"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.14 [ 110 / 186, 4 ins, 29 del, 77 sub ] exp/mono/decode_dev/wer_10_0.0
+Time Taken = 390 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.04 --self-loop-scale=0.01"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 59.68 [ 111 / 186, 1 ins, 45 del, 65 sub ] exp/mono/decode_dev/wer_16_1.0
+Time Taken = 354 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.04 --self-loop-scale=0.02"
+num_iters=14
+max_iter_inc=7
+totgauss=800
+%WER 60.22 [ 112 / 186, 2 ins, 39 del, 71 sub ] exp/mono/decode_dev/wer_17_0.0
+Time Taken = 348 secs
+----------- END -----------
+
+---------- START ----------
+scale_opts="--transition-scale=0.1 --acoustic-scale=0.04 --self-loop-scale=0.03"
+num_iters=14
+max_iter_inc=7
+totgauss=800
