@@ -7,7 +7,7 @@ num_iters=14
 max_iter_inc=7
 totgauss=800
 ```
-Monophone accuracy = 54.30
+Monophone accuracy = 54.30%
 
 
 ### Configuration for task 2
@@ -15,3 +15,8 @@ Monophone accuracy = 54.30
 numleaves=4200
 totgauss=40000
 ```
+Triphone accuracy = 51.61%
+
+### Accuracy for task 3
+Monophone accuracy = 56.45%
+Triphone accuracy = 45.16%
