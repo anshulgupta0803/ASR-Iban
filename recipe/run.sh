@@ -49,11 +49,11 @@ fi
 if [ $stage -le 4 ]; then
   ### Triphone
   echo "Triphone training"
-  #steps/align_si.sh --nj $nj --cmd "$train_cmd" \
-  #    data/train data/lang exp/mono exp/mono_ali
-  #steps/train_deltas.sh --boost-silence 1.25  --cmd "$train_cmd"  \
-  #    3200 30000 data/train data/lang exp/mono_ali exp/tri1
-  #echo "Triphone training complete"
+  steps/align_si.sh --nj $nj --cmd "$train_cmd" \
+      data/train data/lang exp/mono exp/mono_ali
+  steps/train_deltas.sh --boost-silence 1.25  --cmd "$train_cmd"  \
+      4200 40000 data/train data/lang exp/mono_ali exp/tri1
+  echo "Triphone training complete"
 fi
 
 # Stage 5: Decoding test utterances in data/dev
@@ -65,6 +65,13 @@ if [ $stage -le 5 ]; then
   steps/decode.sh --config conf/decode.config --nj $dev_nj --cmd "$decode_cmd" \
     exp/mono/graph data/dev exp/mono/decode_dev
   echo "Monophone decoding done."
+  
+  echo "Decoding the dev set using triphone models."
+  utils/mkgraph.sh data/lang_test exp/tri1 exp/tri1/graph
+
+  steps/decode.sh --config conf/decode.config --nj $dev_nj --cmd "$decode_cmd" \
+    exp/tri1/graph data/dev exp/tri1/decode_dev
+  echo "Triphone decoding done."
   ) &
 fi
 
