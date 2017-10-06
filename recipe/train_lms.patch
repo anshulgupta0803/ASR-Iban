@@ -1,0 +1,21 @@
+diff --git a/recipe/local/train_lms_srilm.sh b/recipe/local/train_lms_srilm.sh
+index 65f1f94..79b9387 100755
+--- a/recipe/local/train_lms_srilm.sh
++++ b/recipe/local/train_lms_srilm.sh
+@@ -127,6 +127,16 @@ echo "Building language models"
+ echo "------------------------"
+ ngram-count -lm $tgtdir/2gram.kn01.gz -kndiscount1 -gt1min 0 -kndiscount2 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
+ ngram-count -lm $tgtdir/2gram.kn02.gz -kndiscount1 -gt1min 0 -kndiscount2 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.wb01.gz -wbdiscount1 -gt1min 0 -wbdiscount2 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.wb02.gz -wbdiscount1 -gt1min 0 -wbdiscount2 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.c01.gz -cdiscount1 0.5 -gt1min 0 -cdiscount2 0.5 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.c01.gz -cdiscount1 0.5 -gt1min 0 -cdiscount2 0.5 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.ukn01.gz -ukndiscount1 -gt1min 0 -ukndiscount2 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.ukn02.gz -ukndiscount1 -gt1min 0 -ukndiscount2 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.int01.gz -interpolate1 -gt1min 0 -interpolate2 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.int02.gz -interpolate1 -gt1min 0 -interpolate2 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.n01.gz -ndiscount1 -gt1min 0 -ndiscount2 -gt2min 1 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
++ngram-count -lm $tgtdir/2gram.n02.gz -ndiscount1 -gt1min 0 -ndiscount2 -gt2min 2 -order 2 -text $tgtdir/train.txt -vocab $tgtdir/vocab -unk -sort -map-unk "$oov_symbol"
+ 
+ echo "--------------------"
+ echo "Computing perplexity"
